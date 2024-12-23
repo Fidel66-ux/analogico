@@ -1,0 +1,135 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Materia Comunicación Analógica</title>
+<link href="Codigo/codigo.css" rel="stylesheet" type="text/css">
+</head>	 
+
+<body>
+	
+<div id="marco">
+	
+	<div class="encabezadopri">
+		
+		<div class="imag1"><img src="Imagenes/Circuito-integrado-300x225.png" width="300" height="225" alt=""/></div>
+	  	<div class="logopri"><img src="Imagenes/Ico_uta.png" width="174" height="174" alt=""/></div>
+		<div class="titulopri">Universidad Tecnica</div>
+		<div class="titulo2">Comunicación Analógica</div>
+		
+		
+	</div>
+
+	<div class="menu">
+		<ul>
+			<li> <a href="index.html">Inicio</a> </li> 
+			<li> <a href="Capitulo 1.html">Capitulo 1</a> </li>
+			<li> <a href="Capitulo 2.html">Capitulo 2</a> </li>
+			<li> <a href="Capitulo 3.html">Capitulo 3</a> </li>
+			<li> <a href="Capitulo 4.html">Capitulo 4</a> </li>
+			<li> <a href="Laboratorios.html">Laboratorios</a> 
+				<ul class="submenu">
+					<li> <a href="Lab_Cap 1.html">Lab_Cap 1</a></li>
+					<li> <a href="Lab_Cap 2.html">Lab_Cap 2</a></li>
+					<li> <a href="Lab_Cap 3.html">Lab_Cap 3</a></li>
+					<li> <a href="Lab_Cap 4.html">Lab_Cap 4</a></li>
+				</ul>
+			</li>
+		</ul>
+	
+	</div>
+	<div class="limipar"></div>
+		
+	<div class="contenidoini">
+		
+	<div class="tema17">CAPITULO 3: TRASMISIÓN POR MODULACIÓN DE AMPLITUD </div>
+	  <div class="tema18">Introducción</div>
+	  <div class="cont33">La modulación se realiza en el transmisor en un circuito llamado modulador, y en el receptor se demodula en un circuito llamado demodulador o detector. El objetivo de este texto es familiarizar al lector con los conceptos básicos de los transmisores de AM, describir algunos de los circuitos utilizados en los moduladores de AM y describir dos tipos diferentes de transmisores de AM.</div>
+		<video controls> <source src="Videos/MODULACIÓN AM.mp4" type="video/mp4" width="300" alt=""/></video>
+		<div class="imag33"><img src="Imagenes/imag33.png" width="432" height="137" alt=""/></div>
+	  <div class="tema19">Características</div>
+	  <div class="cont34">La modulación en amplitud (AM) funciona mediante la variación de la amplitud de la señal transmitida en relación con la información que se envía. Contrastando esta con la modulación de frecuencia, en la que se varía la frecuencia, y la modulación de fase, en la que se varía la fase</div>
+	  <div class="tema20">Envolvente de AM</div>
+	  <div class="cont35">Son posibles de generar varias formas o variaciones de modulación de amplitud. Aunque matemáticamente no es la forma más sencilla, la portadora de AM de doble banda lateral (AM DSBFC) se discutirá primero, puesto que probablemente sea la forma más utilizada de la modulación de amplitud. AM DSBFC se le llama algunas veces como AM convencional.(Double Side Band Frequency Carrier)</div>
+		<div class="imag34"><img src="Imagenes/imag34.png" width="352" height="227" alt=""/></div>
+		<div class="imag35"><img src="Imagenes/imag35.png" width="470"  alt=""/></div>
+	  <div class="tema21">Espectro de Frecuencias y ancho de banda AM</div>
+	  <div class="cont36">Las dos frecuencias laterales se combinan y producen un componente resultante que a su vez se combina con el vector de la portadora. Esta adición fasorial. Los fasores para la portadora y las frecuencias laterales superiores e inferiores giran en una dirección contraria a las manecillas del reloj.</div>
+		<div class="imag36"><img src="Imagenes/imag36.png" width="567" height="233" alt=""/></div>
+		<div class="imag37"><img src="Imagenes/imag37.png" width="567" height="323" alt=""/></div>
+	  <div class="tema22">Presentación fasorial de una onda de amplitud modulada </div>
+	  <div class="cont37">Para una señal modulante de frecuencia única, se produce una envolvente de AM a partir del vector suma de la portadora y de las frecuencias laterales superiores e inferiores. Las dos frecuencias laterales se combinan y producen un componente resultante que a su vez se combina con el vector de la portadora. </div>
+		<div class="imag38"><img src="Imagenes/imag38.png" width="467"  alt=""/>.<img src="Imagenes/imag39.png" width="567" height="232" alt=""/></div>
+	  <div class="tema23">Coeficiente de modulación</div>
+	  <div class="cont38">Coefeciente de modulación es un término utilizado para describir la cantidad de cambio de amplitud (modulación) presente en una forma de una onda de AM. El porcentaje de modulación es simplemente el coeficiente de modulación establecido como un porcentaje. Más específico, el porcentaje de modulación proporciona el cambio de porcentaje en la amplitud de la onda de salida cuando está actuando sobre la portadora por una señal modulante. Matemáticamente, el coeficiente de modulación es</div>
+		<div class="imag40"><img src="Imagenes/imag40.png" width="145" height="117" alt=""/></div>
+	  <div class="cont39">en donde m = coeficiente de modulación (sin unidad) Em= cambio pico en la amplitud del voltaje de la forma de onda de salida (volts) Ec= amplitud pico del voltaje de la portadora no modulada (volts) La ecuación 3-1 puede rearreglarse para resolver a Em y Ec como</div>
+		<div class="imag41"><img src="Imagenes/imag41.png" width="130" height="38" alt=""/><br>
+	    <img src="Imagenes/imag41,1.png" width="193" height="50" alt=""/></div>
+		<div class="tema24">Distribución de voltaje en una señal de Am</div>
+	  <div class="cont40">Una portadora no modulada puede describirse matemáticamente como <br>
+			Vc(t) = Ec sen(2pifct) <br>
+			en donde <br>
+			Vc(t) = forma de onda de voltaje de tiempo variante para la portadora <br>
+			E = amplitud pico de la portadora (volts) <br>
+			fc = frecuencia de la portadora (hertz)</div>
+		<div class="imag42"><img src="Imagenes/imag42.png" width="567" height="198" alt=""/></div>
+	  <div class="tema25">Distribución de potencia AM</div>
+	  <div class="cont41">La potencia es importante en cualquier esquema de comunicaciones debido a que la crucial relación señal a ruido en el receptor, depende mucho de que sea grande la potencia de la señal como de que sea pequeña la potencia del ruido. Sin embargo, la potencia que es más importante, no es la potencia de señal total sino sólo la porción que se utiliza para transmitir información. Puesto que la portadora en una señal de AM permanece sin cambio con la modulación, no contiene información. Su única función es ayudar a desmodular la señal en el receptor. Esto hace que en AM se desperdicie potencia, en comparación con otros esquemas de modulación que se describirán después.<br> Matemáticamente, para una onda sinusoidal la potencia de la portadora no modulada se expresa como </div>
+		<div class="imag43"><img src="Imagenes/imag43.png" width="281" height="103" alt=""/></div>
+	  <div class="cont42">En donde Pc = potencia de la portadora (watts)<br>
+		Ec = voltaje pico de la portadora (volts) R = resistencia de carga (ohms)<br>
+		Las potencias de las bandas laterales superiores e inferiores se expresan matemáticamente como</div>
+		<div class="imag44"><img src="Imagenes/imag44.png" width="283" height="99" alt=""/></div>
+	  <div class="tema26">Modulación con una señal Compleja de información </div>
+	  <div class="cont43">Si una señal modulante contiene dos frecuencias (fm1 y fm2), la onda modulada contendrá la portadora y dos conjuntos de frecuencias laterales espaciadas simétricamente sobre la portadora. Dicha onda puede escribirse como </div>
+		<div class="imag45"><img src="Imagenes/imag45.png" width="523" height="109" alt=""/></div>
+	  <div class="tema27">Tipos de modulación AM</div>
+	  <div class="cont44">•	Modulación AM DBS-SC<br>
+		La señal modulada DBS-SC en el transmisor. La complejidad del sistema resultante es el precio que debe pagarse por suprimir la onda portadora para ahorrar potencia en el transmisor.</div>
+		<div class="imag46"><img src="Imagenes/imag46.jpg" width="453" height="215" alt=""/></div>
+		<div class="imag47"><img src="Imagenes/imag47.png" width="418" height="333" alt=""/></div>
+		<div class="cont45">•	Modulación AM SSB</div>
+	  <div class="cont46">•	Modulación AM VSB<br>
+		Una señal VSB es relativamente  fácil de generar y  únicamente tiene un ancho de banda algo superior (entre un 12 % o un 25 %) superior al de SSB.</div>
+	  <div class="imag48"><img src="Imagenes/imag48.png" width="549" height="43" alt=""/><img src="Imagenes/imag49.jpg" width="500" height="212" alt=""/></div>
+		
+		
+		
+		<div class="cont21">Descarga el documento</div>
+		<a href="Materia/CAPÍTULO III.pdf">Transmisión por modulacion de amplitud</a>
+		<div class="cont22">Bibliografía</div>
+		<div class="cont23">
+		[1] 	I. O. M. S. Cruz, «Modulación por medio de una señal de información compleja,» 2010. [En línea].<br> 
+		[2] 	I. O. M. S. Cruz, «TRANSMISIÓN DE MODULACIÓN DE AMPLITUD,» 2010. [En línea]. [Último acceso: Julio 2022].<br>
+		[3] 	C. P. Vega, «MODULACION DE AMPLITUD,» Dpto. de Ingeniería de Comunicaciones. [En línea]. [Último acceso: Julio 2022].</div>
+
+
+	
+		
+  </div>
+		
+	<div class="pie">
+		<div class="redes">Siguenos en nuestras paginas o contactanos</div>
+		<div class="imag4"><img src="Imagenes/publicidad-empresas-en-redes-sociales-empresa-madrid.png" width="500" height="300" alt=""/></div>
+		
+		<div class="inte">Integrantes:
+	   <div class="contn">•	Bryan de la Cruz <br>
+		  •	Josué Balseca <br>
+		  •	Ronnie Cuji <br>
+		  •	Cristian Chimba <br>
+		  •	Jhon Toapanta</div>
+	  </div>
+	  <div class="inte">Docente:
+	   <div class="contn">• Ing. juan Pablo Pallo</div>
+		
+	</div>
+		
+	</div>
+	
+	
+	
+</div>
+	
+</body>
+</html>
